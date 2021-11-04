@@ -1,0 +1,146 @@
+{
+    "data": {
+        "nickName": "Alexander LG",
+        "name": "Alexander Lansdorp Girón",
+        "profession": "FrontEnd Developer JR",
+        "address": "Bogotá, Colombia.",
+        "email": "alexlansdorprs@gmail.com",
+        "website": "https://github.com/AlexanderLGRS",
+        "phone": "+57 3143773909",
+        "avatar": "https://pbs.twimg.com/profile_images/1298724749523132422/9Qxh0A8h_400x400.jpg",
+        "profile": "I'm a front-end developer passionate about technology, with learning capacity, organized, commitment and focused on the goal. I want to learn everyday and improve my skills."
+    },
+    "academic": [{
+            "startDate": "Jan 2015",
+            "endDate": "Jan 2017",
+            "institution": "SENA",
+            "name": "Industrial Electromechanical Maintenance Technologist"
+        },
+        {
+            "startDate": "oct 2020",
+            "endDate": "present",
+            "institution": "Platzi",
+            "name": "Javascript School"
+        },
+        {
+            "startDate": "oct 2020",
+            "endDate": "present",
+            "institution": "Platzi",
+            "name": "Web development school"
+        },
+        {
+            "startDate": "oct 2020",
+            "endDate": "present",
+            "institution": "Platzi",
+            "name": "Front-end architecture school"
+        }
+    ],
+    "experience": [{
+            "company": "Tecnimas de Colombia SAS",
+            "endDate": "Present",
+            "jobDescription": "Design and manufacture charging systems.",
+            "jobTitle": "Designer",
+            "startDate": "Mar 2021"
+        },
+        {
+            "company": "Servicloro SAS",
+            "endDate": "Sep 2020",
+            "jobDescription": "Perform preventive and corrective maintenance.",
+            "jobTitle": "Maintenance technician",
+            "startDate": "Jun 2018"
+        },
+        {
+            "company": "Sitara SAS",
+            "endDate": "Apr 2018",
+            "jobDescription": "Perform preventive and corrective maintenance.",
+            "jobTitle": "Maintenance technician",
+            "startDate": "Jun 2016"
+        }
+    ],
+    "skills": [{
+            "name": "HTML5",
+            "percentage": "90",
+            "color": "orange"
+        },
+        {
+            "name": "CSS",
+            "percentage": "90",
+            "color": "blue"
+        },
+        {
+            "name": "LESS",
+            "percentage": "90",
+            "color": "darkblue"
+        },
+        {
+            "name": "SASS",
+            "percentage": "90",
+            "color": "pink"
+        },
+        {
+            "name": "PUG",
+            "percentage": "90",
+            "color": "brown"
+        },
+        {
+            "name": "JavaScript",
+            "percentage": "80",
+            "color": "yellow"
+        },
+        {
+            "name": "JAVA",
+            "percentage": "60",
+            "color": ""
+        },
+        {
+            "name": "React",
+            "percentage": "50",
+            "color": "mediumaquamarine"
+        },
+        {
+            "name": "GIT",
+            "percentage": "90",
+            "color": "maroon"
+        },
+        {
+            "name": "GITHUB",
+            "percentage": "90",
+            "color": ""
+        },
+        {
+            "name": "CODESTREAM",
+            "percentage": "80",
+            "color": "mediumseagreen"
+        }
+    ],
+    "interest": [
+        "Javascript",
+        "Develop",
+        "Frontend",
+        "CSS",
+        "HTML"
+    ],
+    "languages": [{
+            "name": "Spanish",
+            "percentage": "100"
+        },
+        {
+            "name": "English",
+            "percentage": "40"
+        }
+    ],
+    "social": {
+        "twitter": {
+            "username": "@GironLansdorp",
+            "url": "https://twitter.com/GironLansdorp"
+        },
+        "github": {
+            "username": "AlexanderLGRS",
+            "url": "https://github.com/alexanderlgrs"
+        },
+        "linkedin": {
+            "username": "AlexanderLGRS",
+            "url": "https://www.linkedin.com/in/alexanderlgrs"
+        }
+    }
+}
