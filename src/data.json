@@ -59,13 +59,23 @@
     ],
     "skills": [{
             "name": "HTML5",
-            "percentage": "90",
+            "percentage": "100",
             "color": "orange"
         },
         {
             "name": "CSS",
-            "percentage": "90",
+            "percentage": "95",
             "color": "blue"
+        },
+        {
+            "name": "JavaScript",
+            "percentage": "80",
+            "color": "yellow"
+        },
+        {
+            "name": "React",
+            "percentage": "50",
+            "color": "mediumaquamarine"
         },
         {
             "name": "LESS",
@@ -83,19 +93,9 @@
             "color": "brown"
         },
         {
-            "name": "JavaScript",
-            "percentage": "80",
-            "color": "yellow"
-        },
-        {
             "name": "JAVA",
-            "percentage": "60",
+            "percentage": "30",
             "color": ""
-        },
-        {
-            "name": "React",
-            "percentage": "50",
-            "color": "mediumaquamarine"
         },
         {
             "name": "GIT",

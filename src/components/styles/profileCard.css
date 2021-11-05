@@ -9,6 +9,10 @@
     z-index: 1;
 }
 
+ion-icon {
+    font-size: 25px;
+}
+
 .card-container {
     width: 100%;
     display: flex;
@@ -115,16 +119,15 @@
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    color: #f1f1f1;
 }
 
 .principal-info h4 {
     font-size: 30px;
-    color: #202020;
 }
 
 .principal-info p {
     font-size: 18px;
-    color: #141414;
 }
 
 a {

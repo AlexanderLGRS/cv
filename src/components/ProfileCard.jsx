@@ -1,5 +1,5 @@
 import React from "react";
-import imageDecoration from './Assets/team-decoration-2.jpg'
+import imageDecoration from './Assets/team-decoration-1.jpg'
 import Card from "./PersonalCard";
 import data from '../data.json';
 import './styles/profileCard.css';

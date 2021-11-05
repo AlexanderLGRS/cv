@@ -24,7 +24,7 @@ import PersonalInfo from "./components/PersonalInfo"
 import SkillsSection from "./components/SkillsSection";
 import AcademicSection from "./components/AcademicSection";
 import ExperieceSection from "./components/ExperienceSection";
-
+import ReturnButton from "./components/ReturnButton";
 
 
 export default class App extends React.Component {
@@ -35,6 +35,7 @@ export default class App extends React.Component {
         <SkillsSection />
         <AcademicSection />
         <ExperieceSection />
+        <ReturnButton />
       </React.Fragment>
     )
   }

@@ -7,7 +7,7 @@ export default class SkillsSection extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container-fluid">
+                <div id="skills-section" className="container-fluid">
                     <div className="row">
                         <p className="section-title">Skills</p>
                         <div className="col-12 p-0">

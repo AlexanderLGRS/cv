@@ -6,7 +6,7 @@ export default class ExperieceSection extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container-fluid">
+                <div id="experience-section" className="container-fluid">
                     <div className="row">
                     <p className="section-title">Experience</p>
                         <ExperienceCard company={data.experience[0].company}

@@ -6,7 +6,7 @@ export default class AcademicSection extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container-fluid">
+                <div id="academic-section" className="container-fluid">
                     <div className="row">
                     <p className="section-title">Academic</p>
                         <AcademicCard name={data.academic[0].name}

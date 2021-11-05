@@ -1,0 +1,29 @@
+.return {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #00d8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border: var(--secondary-color) 2px solid;
+    opacity: 0.5;
+}
+
+.return span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(180deg);
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/expand-arrow--v1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.return:hover {
+    opacity: 1;
+}
