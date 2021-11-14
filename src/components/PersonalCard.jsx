@@ -8,9 +8,9 @@ export default function Card(props) {
                 <h4 className="card-title">Hello & Welcome</h4>
                 <h4 className="card-subtitle ">{profile}</h4>
                 <div className="social-link">
-                    <a href={github} target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                    <a href={twitter} target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href={linkedin} target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href={github} target="_blank" rel="noreferrer"  ><ion-icon name="logo-github"></ion-icon></a>
+                    <a href={twitter} target="_blank" rel="noreferrer" ><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href={linkedin} target="_blank" rel="noreferrer" ><ion-icon name="logo-linkedin"></ion-icon></a>
                 </div>
             </div>
         </React.Fragment>

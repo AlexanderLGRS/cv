@@ -1,6 +1,5 @@
 import React from "react";
 import './styles/header.css'
-import data from '../data.json';
 import ProfileCard from "./ProfileCard";
 import logo from './Assets/react-icon.svg'
 
@@ -10,8 +9,7 @@ export default class Header extends React.Component {
             <React.Fragment>
                 <nav id="home" className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div className="container-fluid">
-                        {/* <a className="navbar-brand" href="#">{data.data.nickName}</a> */}
-                        <img src={logo} className="header-icon"/>
+                        <img src={logo} className="header-icon" alt="React logo"/>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -30,18 +28,18 @@ export default class Header extends React.Component {
                                     <a className="nav-link" href="#experience-section">Experience</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Projects</a>
+                                    <a className="nav-link" href="#projects-section">Projects</a>
                                 </li>
-                                <li className="nav-item dropdown">
+                                {/* <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown link
                                     </a>
                                     <ul className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a className="dropdown-item" href="#">1</a></li>
+                                        <li><a className="dropdown-item" href="#">2</a></li>
+                                        <li><a className="dropdown-item" href="#">3</a></li>
                                     </ul>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

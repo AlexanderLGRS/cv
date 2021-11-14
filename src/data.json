@@ -142,5 +142,18 @@
             "username": "AlexanderLGRS",
             "url": "https://www.linkedin.com/in/alexanderlgrs"
         }
-    }
+    },
+    "projects": [{
+            "projectName": "Isla del lago",
+            "url": "http://isla-del-lago-water-mngr-qa.herokuapp.com/"
+        },
+        {
+            "projectName": "MG Inmobiliaria",
+            "url": "https: //mginmobiliaria.netlify.app/"
+        },
+        {
+            "projectName": "Con ánimo de ofender",
+            "url": "https: //alexanderlgrs.github.io/ConAnimoDeOfender"
+        }
+    ]
 }

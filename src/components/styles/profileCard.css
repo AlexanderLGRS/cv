@@ -61,18 +61,31 @@ ion-icon {
     text-align: center;
     padding: 10px;
     opacity: 0;
+    animation-name: opacityEfect;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 15s;
+    animation-delay: 1s;
 }
 
-.card-head:hover .hover-content {
+
+/* .card-head:hover .hover-content {
     opacity: 1;
-}
+} */
 
 .card-title {
     text-align: center;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 30px;
-    transform: translateY(50px);
+    opacity: 0;
+    animation-name: opacityEfect;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 15s;
+    animation-delay: 1s;
 }
 
 .card-subtitle {
@@ -80,7 +93,13 @@ ion-icon {
     font-weight: 200;
     line-height: 1.5;
     margin-bottom: 50px;
-    transform: translateY(70px);
+    opacity: 0;
+    animation-name: opacityEfect;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 15s;
+    animation-delay: 1s;
 }
 
 .social-link {
@@ -89,7 +108,13 @@ ion-icon {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(90px);
+    opacity: 0;
+    animation-name: opacityEfect;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 15s;
+    animation-delay: 1s;
 }
 
 .hover-content .card-title,
@@ -98,11 +123,11 @@ ion-icon {
     opacity: 1;
 }
 
-.card-head:hover .card-title,
+
+/* .card-head:hover .card-title,
 .card-head:hover .card-subtitle,
 .card-head:hover .social-link {
-    transform: translateY(0);
-}
+} */
 
 .social-link ion-icon {
     cursor: pointer;
@@ -144,5 +169,14 @@ a:hover {
     .principal-info {
         width: 70%;
         bottom: -30px;
+    }
+}
+
+@keyframes opacityEfect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
