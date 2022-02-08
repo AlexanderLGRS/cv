@@ -8,10 +8,9 @@ export default function ProgressBar(props) {
                 <span>{skill}</span>
                 <div className="progress" style={{ border: '2px solid #f1f1f1', borderRadius: '10px', height: 20 }}>
                     <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{
-                        border: '1px solid #f1f1f1', borderRadius: '10px', width: props.percentage + '%', backgroundColor: props.color, color: 'black'
+                        border: '1px solid #f1f1f1', borderRadius: '10px', width: props.percentage + '%', backgroundColor: color, color: 'black'
                     }} aria-valuenow={percentage} aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                {/* {percentage} % */}
             </div>
         </React.Fragment>
     )

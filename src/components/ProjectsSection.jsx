@@ -15,6 +15,8 @@ export default class ProjectsSection extends React.Component {
                             url={data.projects[1].url} />
                         <ProjectCard projectName={data.projects[2].projectName}
                             url={data.projects[2].url} />
+                        <ProjectCard projectName={data.projects[3].projectName}
+                            url={data.projects[3].url} />
                     </div>
                 </div>
             </React.Fragment>
