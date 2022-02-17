@@ -16,7 +16,7 @@ export default class Header extends React.Component {
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#home">Home</a>
+                                    <a className="nav-link active" aria-current="page" href="#profile">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#skills-section">Skills</a>
@@ -30,21 +30,11 @@ export default class Header extends React.Component {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#projects-section">Projects</a>
                                 </li>
-                                {/* <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown link
-                                    </a>
-                                    <ul className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a className="dropdown-item" href="#">1</a></li>
-                                        <li><a className="dropdown-item" href="#">2</a></li>
-                                        <li><a className="dropdown-item" href="#">3</a></li>
-                                    </ul>
-                                </li> */}
                             </ul>
                         </div>
                     </div>
                 </nav>
-                <header className="header">
+                <header id='profile'className="header">
                     <ProfileCard />
                 </header>
             </React.Fragment>

@@ -1,4 +1,9 @@
 @import "../../App.css";
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
 .collapse {
     display: flex;
     flex-direction: column;
