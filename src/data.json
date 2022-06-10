@@ -35,6 +35,14 @@
         }
     ],
     "experience": [{
+            "company": "NTT DATA",
+            "endDate": "Present",
+            "jobDescription": "Design UI/UX",
+            "jobTitle": "Junior Engineer",
+            "startDate": "Jun 2022",
+            "url": "https://co.nttdata.com/"
+        },
+        {
             "company": "Water Manager",
             "endDate": "Present",
             "jobDescription": "Design UI/UX",
@@ -52,7 +60,7 @@
         },
         {
             "company": "Tecnimas de Colombia SAS",
-            "endDate": "Present",
+            "endDate": "Jun 2022",
             "jobDescription": "Design and manufacture charging systems.",
             "jobTitle": "Designer",
             "startDate": "Mar 2021"
@@ -141,11 +149,19 @@
     },
     "projects": [{
             "projectName": "Con ánimo de ofender",
-            "url": "https://alexanderlgrs.github.io/ConAnimoDeOfender"
+            "url": "https://alexanderlgrs.github.io/CADO"
         },
         {
             "projectName": "Unknown World",
             "url": "https://alexanderlgrs.github.io/UnknownWorld"
+        },
+        {
+            "projectName": "Team Generator",
+            "url": "https://alexanderlgrs.github.io/TG"
+        },
+        {
+            "projectName": "Water Manager",
+            "url": "https://isla-del-lago-web-ui-qa.herokuapp.com/"
         }
     ]
 }
