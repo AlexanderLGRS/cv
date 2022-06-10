@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCard";
 export default function ProjectsSection() {
 
     const myProjects = data.projects
-    console.log(myProjects);
     return (
         <React.Fragment>
             <div id="projects-section" className="container-fluid">
@@ -13,7 +12,8 @@ export default function ProjectsSection() {
                     <p className="section-title">Projects</p>
                     {myProjects.map((project) => 
                         <ProjectCard projectName={project.projectName}
-                            url={project.url} />
+                        url={project.url}
+                        projectLanguage={project.projectLanguage} key={Math.random()}/>
                     )}
                 </div>
             </div>

@@ -18,10 +18,10 @@
     width: 15px;
     height: 15px;
     transform: rotate(180deg);
-    background-image: url("https://img.icons8.com/material-outlined/24/000000/expand-arrow--v1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/expand-arrow--v1.png");
 }
 
 .return:hover {

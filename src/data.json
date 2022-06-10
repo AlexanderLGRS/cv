@@ -149,19 +149,28 @@
     },
     "projects": [{
             "projectName": "Con ánimo de ofender",
-            "url": "https://alexanderlgrs.github.io/CADO"
+            "url": "https://alexanderlgrs.github.io/CADO",
+            "projectLanguage": "logo-react"
         },
         {
             "projectName": "Unknown World",
-            "url": "https://alexanderlgrs.github.io/UnknownWorld"
+            "url": "https://alexanderlgrs.github.io/UnknownWorld",
+            "projectLanguage": "logo-react"
         },
         {
             "projectName": "Team Generator",
-            "url": "https://alexanderlgrs.github.io/TG"
+            "url": "https://alexanderlgrs.github.io/TG",
+            "projectLanguage": "logo-react"
         },
         {
             "projectName": "Water Manager",
-            "url": "https://isla-del-lago-web-ui-qa.herokuapp.com/"
+            "url": "https://isla-del-lago-web-ui-qa.herokuapp.com/",
+            "projectLanguage": "logo-react"
+        },
+        {
+            "projectName": "CSS Drawings",
+            "url": "https://alexanderlgrs.github.io/css-drawings",
+            "projectLanguage": "logo-css3"
         }
     ]
 }

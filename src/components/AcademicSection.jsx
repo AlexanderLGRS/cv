@@ -13,7 +13,7 @@ export default function AcademicSection() {
                     <AcademicCard name={academic.name}
                         startDate={academic.startDate}
                         endDate={academic.endDate}
-                        institution={academic.institution} />
+                        institution={academic.institution} key={Math.random()}/>
                     )}
                 </div>
             </div>

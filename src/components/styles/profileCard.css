@@ -124,11 +124,14 @@ ion-icon {
     opacity: 1;
 }
 
+.project-card-link {
+    text-decoration: underline;
+    font-size: 20px;
+}
 
-/* .card-head:hover .card-title,
-.card-head:hover .card-subtitle,
-.card-head:hover .social-link {
-} */
+.project-card-link:hover {
+    transform: translateX(20px);
+}
 
 .social-link ion-icon {
     cursor: pointer;

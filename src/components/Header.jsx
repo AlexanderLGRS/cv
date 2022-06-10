@@ -16,7 +16,7 @@ export default class Header extends React.Component {
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#profile">Home</a>
+                                    <a className="nav-link" aria-current="page" href="#profile">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#skills-section">Skills</a>

@@ -14,7 +14,7 @@ export default function ExperieceSection() {
                         startDate={experience.startDate}
                         endDate={experience.endDate}
                         jobTitle={experience.jobTitle}
-                        jobDescription={experience.jobDescription} />
+                        jobDescription={experience.jobDescription} key={Math.random()}/>
                     )}
                 </div>
             </div>

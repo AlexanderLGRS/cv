@@ -14,7 +14,7 @@ export default function SkillsSection() {
                         <div className="skills-card card text-white bg-dark ">
                             <div className="card-body">
                                 {mySkills.map((skill) =>
-                                    <ProgressBar skill={skill.name} percentage={skill.percentage} />
+                                    <ProgressBar skill={skill.name} percentage={skill.percentage} key={Math.random()} />
                                 )}
                             </div>
                         </div>
